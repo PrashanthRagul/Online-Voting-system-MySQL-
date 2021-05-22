@@ -1,0 +1,70 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: "Lato", sans-serif;}
+
+
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 30%;
+  height: 300px;
+}
+
+
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 70%;
+  border-left: none;
+  height: 300px;
+}
+</style>
+</head>
+<body>
+
+<h2>Vertical Tabs</h2>
+<p>Click on the buttons inside the tabbed menu:</p>
+
+<div class="tab">
+<botton>  <a href="addvoter.html" style="color:white">ADD VOTER</a><br><br></button>
+<button><a href="displayvoters.php" style="color:white">DISPLAY VOTERS</a><br><br></button>
+<button> <a href="voterdel.html" style="color:white">REMOVE VOTER</a><br><br></button>
+<button> <a href="updatevoter.html" style="color:white">UPDATE VOTER INFORMATION</a><br><br></button>
+<button> <a href="voterhistory.php" style="color:white">VOTER HISTORY</a><br><br></button>
+</div>
+
+
+
+   
+</body>
+</html> 
